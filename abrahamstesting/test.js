@@ -4,7 +4,9 @@ function sum(a, b){
 }
 
 function initializeSum(a, b){
-    return sum(a, b);
+    // return sum(a, b);
+    return a + b;
 };
 
-initializeSum(1, 2);
+document.getElementById("resultDisplayed").innerHTML = initializeSum(1, 2);
+
