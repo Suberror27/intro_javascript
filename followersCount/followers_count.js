@@ -1,5 +1,10 @@
 let count = 0;
 
+function resetCount() {
+    count = 0;
+    displayCount();
+}
+
 function increaseCount() {
     count++;
     displayCount();
