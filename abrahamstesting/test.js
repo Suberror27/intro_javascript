@@ -1,12 +1,10 @@
-function sum(a, b){
-    let result = a + b;
-    console.log("initializeSum function invokes sum function that logs the result of: " + result);
-}
+const input = document.getElementById("myInput");
+const output = document.getElementById("output");
 
-function initializeSum(a, b){
-    // return sum(a, b);
-    return a + b;
+// input.onkeydown = function(event) {
+//     output.textContent = `Key pressed: ${event.key}`;
+// };
+
+input.onchange = function() {
+    output.textContent = `Value changed to: ${input.value}`;
 };
-
-document.getElementById("resultDisplayed").innerHTML = initializeSum(1, 2);
-
