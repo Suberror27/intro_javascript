@@ -23,7 +23,7 @@ class Car {
     }
 
     getFullCarDetails() {
-        return `The car is a ${this.model} ${this.year} with the color of ${this.color} and type is ${this.type}`
+        console.log(`The car is a ${this.model} ${this.year} with the color of ${this.color} and type is ${this.type}`);
     }
 };
 
@@ -31,4 +31,4 @@ const car1 = new Car("Nissan Sentra", 2019, "Dark Blue", "Basic");
 const car2 = new Car("Chevrolet Silverado", 2012, "Grey", "Pickup");
 const car3 = new Car("Tesla Model 3", 2024, "Dark Blue", "Basic");
 
-console.log(car1.getFullCarDetails());
+car1.getFullCarDetails();
