@@ -31,4 +31,4 @@ const car1 = new Car("Nissan Sentra", 2019, "Dark Blue", "Basic");
 const car2 = new Car("Chevrolet Silverado", 2012, "Grey", "Pickup");
 const car3 = new Car("Tesla Model 3", 2024, "Dark Blue", "Basic");
 
-car1.getFullCarDetails();
+car2.getFullCarDetails();
